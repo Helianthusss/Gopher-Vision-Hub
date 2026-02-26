@@ -1,0 +1,26 @@
+# Biến môi trường
+.env
+.env.local
+
+# Go
+backend-go/server.exe
+backend-go/*.exe
+backend-go/*.bin
+
+# Node / React
+node_modules/
+frontend-react/dist/
+frontend-react/node_modules/
+.eslintcache
+
+# Python (AI Service)
+ai-service-python/venv/
+ai-service-python/__pycache__/
+ai-service-python/*.pyc
+ai-service-python/.ipynb_checkpoints/
+
+# IDE & OS
+.vscode/
+.idea/
+DS_Store
+Thumbs.db
